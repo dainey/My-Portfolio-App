@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Portfolio">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_apps"
+                    android:icon="@android:drawable/ic_menu_camera"
+                    android:title="Application" />
+                <item
+                    android:id="@+id/nav_education"
+                    android:icon="@android:drawable/ic_menu_gallery"
+                    android:title="Education" />
+                <item
+                    android:id="@+id/nav_bio"
+                    android:icon="@android:drawable/ic_menu_slideshow"
+                    android:title="Bio" />
+            </group>
+        </menu>
+    </item>
+
+
+    <item android:title="Publish">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@android:drawable/ic_menu_share"
+                android:title="Share" />
+
+        </menu>
+    </item>
+
+</menu>
