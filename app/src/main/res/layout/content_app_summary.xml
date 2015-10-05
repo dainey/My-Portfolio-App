@@ -74,5 +74,6 @@
         android:layout_height="2dp"
         android:layout_below="@+id/status_and_description"
         android:alpha="0.5"
+        android:layout_marginBottom="4dp"
         android:background="@color/accentColor" />
 </RelativeLayout>
